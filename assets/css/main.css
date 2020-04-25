@@ -32,6 +32,9 @@ footer, header, hgroup, menu, nav, section {
 a:link {
   text-decoration: none;
 }
+a:hover {
+  color: hotpink;
+}
 
 body {
 	line-height: 1;
