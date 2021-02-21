@@ -52,15 +52,21 @@
 				<p>
 					I like to build things
 				</p>
-				
 
-				<button onclick="myFunction()">button for fun</button>
 
-				<p id="demo"></p>
+				<textarea id="myText">
+					Lorem ipsum...
+				</textarea>
+				<button onclick="sendMail(); return false">Send</button>
 
 				<script>
-					function myFunction() {
-						document.getElementById("demo").innerHTML = "Hello World";
+					function sendMail() {
+						var link = "mailto:richupillai@gmail.com"
+							+ "&subject=" + encodeURIComponent("heyy lol")
+							+ "&body=" + encodeURIComponent(document.getElementById('myText').value)
+							;
+
+						window.location.href = link;
 					}
 				</script>
 				<!--	<section>
