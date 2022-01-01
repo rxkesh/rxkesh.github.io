@@ -8,14 +8,154 @@
 	<head>
 		<title>rakesh pillai</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+    <!-- Bootstrap core CSS -->
+        <link href="/assets/css/bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+          main {
+        transition: all 0.5s ease;
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes bgImageAnimate {
+        0%,
+        100% {
+          background-position: -1000px;
+        }
+
+        33.333%,
+        50% {
+          background-position: 0px;
+        }
+      }
+
+      h2 {
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: monospace;
+        z-index: 1;
+        position: relative;
+        color: transparent;
+/*
+        margin-bottom: 160px;
+        margin-top: 64px;
+*/
+      }
+      h2:before {
+        content: "";
+        width: 100%;
+        height: 4px;
+/*
+        background-image: linear-gradient(
+          35deg,
+          #ff7a00 0%,
+          #66ff88 20%,
+          #00affa 40%,
+          #00a0fa 60%,
+          #ff72be 80%,
+          #ff7a00 100%
+        );
+*/
+        margin-top: -16px;
+        position: absolute;
+        animation: bgImageAnimate 10s ease infinite;
+      }
+      h2:after {
+        content: "Rakesh Pillai";
+        position: absolute;
+        width: 100%;
+        display: block;
+        text-align: left;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(
+          35deg,
+          #ff7a00 0%,
+          #66ff88 20%,
+          #00affa 40%,
+          #00a0fa 60%,
+          #ff72be 80%,
+          #ff7a00 100%
+        );
+        background-position: center;
+        animation: bgImageAnimate 10s ease infinite;
+        animation-delay: 0ms;
+      }
+      }
+    </style>
+    <!-- more bootstrap -->
+    <link href="assets/css/bootstrap/navbars/navbar.css" rel="stylesheet">
+	</head>
+	<body class="is-preload" style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" style="padding-bottom: 15px">
+        <div class="container-fluid">
+        <h2 >rakesh pillai</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+          <ul class="navbar-nav" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects and Experience</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+              <!-- disabled link on the navbar, not being used atm
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+            -->
+            <!-- dropdown stuff, not being used atm
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </nav>
 		<!-- Header -->
-			<header id="header">
+   
+        
+			<header id="header" style="background-color: black">
+                
 				<div class="content">
 					<h1><a href="#"></a></h1>
 					<!-- <p>Just a simple, single page responsive<br />
@@ -418,7 +558,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<li><a href="https://www.linkedin.com/in/rakesh-pillai-92bba8186/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
 					<li><a href="https://www.instagram.com/rakeshpill/" class="icon brands fa-instagram"><span class="label">instagram</span></a></li>
 				</ul>
-				<!-- <p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p> -->
 			</footer>
 
 		<!-- Scripts -->
