@@ -1,0 +1,38 @@
+.my-block {
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    width: auto;
+    margin: auto;
+    background-color: aqua;
+
+}
+
+.my-header {
+    display: flex;
+    height: 120px;
+    padding: 110px;
+    width: auto;
+    align-items: center ;
+    text-align: center ;
+    text-shadow: #000 0 0 .05em;
+}
+.container {
+    border-bottom: 1px solid grey;
+}
+.container-body {
+    text-align: center;
+    display: flex;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    font-size: 18px;
+}
+.my-p {
+    text-align: center;
+    font-size: 300%;
+}
+.body-text {
+    text-align: left;
+    padding: 10px;
+}
