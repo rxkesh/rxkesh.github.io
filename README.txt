@@ -1,22 +1,12 @@
-Fractal by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Simple website for Rakesh Pillai. 
 
 
-A simple landing page template for showcasing mobile apps (although it'll definitely work
-for other stuff if you get rid of the phone :) Lightweight, fully responsive, and built on
-HTML5, Sass, and flexbox.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
+Template Credits:
 AJ
 aj@lkn.io | @ajlkn
 
 
-Credits:
+Other Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
