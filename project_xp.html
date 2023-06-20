@@ -4,91 +4,65 @@
         rakesh pillai | rakeshpillai@vt.edu
 -->
 <html>
-    <head>
-        <title> projects and experience </title>
-        <meta charset="utf-8" />
-		<meta content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
-        <link href="assets/css/bootstrap/navbars/navbar.css" rel="stylesheet">
-        <link href="/assets/css/bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/assets/css/bootstrap/heroes/heroes.css" rel="stylesheet">
-        <style>
-          .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-          }
 
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
-            }
-          }
-        </style>
-    </head>
-    
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+<head>
+    <title> Projects and Experience </title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/mystylesheet.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- more bootstrap -->
+    <link href="assets/css/bootstrap/navbars/navbar.css" rel="stylesheet">
+
+</head>
+
+<body class="" style="background-color: white">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div class="container-fluid">
 
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-              <ul class="navbar-nav" >
-                <li class="nav-item">
-                  <a class="nav-link"  href="./index.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="">Projects and Experience</a>
-                </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="./about_me.html">About Me</a>
-                </li>
-                  <!-- disabled link on the navbar, not being used atm
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-                -->
-                <!-- dropdown stuff, not being used atm
-                  <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                -->
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Projects and Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about_me.html">About Me</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </nav>
-          <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display fw-bold">Pokécounter</h1>
-            <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4"> Pokécounter is a django-based website. The objective of the site is to provide users with counters for a given pokémon. I created this site for personal use and to learn how to use django. This project taught me how to use django template filters, the basics of CSS, HTML, and Javacsript, the basics of Python, and more. </p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"  onclick="window.open('http://pokecounter.net','_blank')">Try it!</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.open('https://github.com/rxkesh/pokecounter','_blank')">Source Code</button>
-              </div>
+        </div>
+    </nav>
+    <div class="px-4 pt-2 my-5 text-center border-bottom">
+        <h1 class="display fw-bold">Pokécounter</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4"> Pokécounter is a django-based website. The objective of the site is to provide users with counters for a given pokémon. I created this site for personal use and to learn how to use django. This project taught me how to use django template filters, the basics of CSS, HTML, and Javacsript, the basics of Python, and more. </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-lg px-4 me-sm-3" onclick="window.open('https://github.com/rxkesh/pokecounter','_blank')">Source Code</button>
             </div>
-            <div class="overflow-hidden" style="max-height: 30vh;">
-                <div class="container px-5">
-                    <img src="images/pokecounter_screenshot.PNG" class="img-fluid border rounded-3 shadow-lg mb-4"  width="700" height="500" loading="lazy">
-                </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="images/pokecounter_screenshot.PNG" class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="500" loading="lazy">
             </div>
-          </div>
-        <div class="b-example-divider"></div>
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display fw-bold">More projects on the way!</h1>
-            <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4"> </p>
-            </div>
-            <div class="overflow-hidden" style="max-height: 30vh;">
-            </div>
-          </div>
-    </body>
+        </div>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display fw-bold">More projects on the way!</h1>
+
+        <div class="overflow-hidden" style="max-height: 30vh;">
+        </div>
+    </div>
+</body>
+
 </html>
